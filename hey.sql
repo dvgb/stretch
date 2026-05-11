@@ -15,6 +15,6 @@ select * from hey;
 
 select 'still here on '||getdate();
 
-insert into hey(msg) values('first msg!');
+insert into hey(msg) values('new msg!');
 
 select * from hey;
