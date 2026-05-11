@@ -13,7 +13,7 @@ create table if not exists hey
 
 select * from hey;
 
-select 'here on '||getdate();
+select 'still here on '||getdate();
 
 insert into hey(msg) values('first msg!');
 
